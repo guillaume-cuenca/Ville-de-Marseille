@@ -1,0 +1,31 @@
+.contact {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: right;
+    text-align: center;
+   margin-right: 0.25%;
+   padding-top: 5%;
+}
+
+.css-o7bc57 {
+    bottom: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.Map {
+    width: 100px;
+    height: 100px;
+}
+
+img {
+    width: 600px;
+    height: 300px;
+}
+
+.Liste-Randonnées {
+    display:flex;
+    justify-content: space-between;
+}
+
