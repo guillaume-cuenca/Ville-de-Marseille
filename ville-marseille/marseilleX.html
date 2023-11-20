@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ville de Marseille - Plages</title>
+    <link rel="stylesheet" type="text/css" href="marseilleX.css" />
+</head>
+<body>
+    <header class="header">
+        <img src="https://lefrenchsmartportinmed.com/sites/default/files/styles/medium/public/2022-11/Ville%20de%20Marseille_logo.png?itok=Y5-P1UXm" alt="logo" class="logo">
+        <div class="menu-btn" onclick="toggleSidebar()">
+            <div class="bar"></div>
+            <div class="bar"></div>
+            <div class="bar"></div>
+        </div>
+        <div class="sidebar">
+            <ul>
+                <li><a href="marseille.html" class="lien">Accueil</a></li>
+                <li><a href="marseille1.html" class="lien">l’histoire de Marseille</a></li>
+                <li><a href="marseille2.html" class="lien">Randonnées</a></li>
+                <li><a href="marseille3.html" class="lien">Plages de Marseille</a></li>
+                <li><a href="marseille4.html" class="lien">Parcs de Marseille</a></li>
+                <li><a href="marseille5.html" class="lien">annuaire des musées</a></li>
+                <li><a href="marseilleX.html" class="lien">formulaire de contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <body>
+        <div class="container">
+                <label for="nom">Nom :</label>
+                <input type="text" id="nom" name="nom" required>
+    
+                <label for="prenom">Prénom :</label>
+                <input type="text" id="prenom" name="prenom" required>
+    
+                <label for="email">Email :</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Message :</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+    
+                <label for="conditions">J'accepte les conditions du site :</label>
+                <input type="checkbox" id="conditions" name="conditions" required>
+    
+                <button type="submit">Envoyer</button>
+            </form>
+        </div>
+        <footer>
+            <p>&copy; 2023 Ville de Marseille. Tous droits réservés.</p>
+        </footer>
+    
+        <script src="js\animation.js"></script>
+    </body>
+    </html>

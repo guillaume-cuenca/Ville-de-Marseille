@@ -1,0 +1,230 @@
+/*accueil*/
+body {
+    background-image: url(img159/istockphoto-1337565142-1024x1024.jpg);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f8ff; /* Couleur rappelant la mer Méditerranée */
+    color: #333;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+#main {
+    max-width: 900px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+}
+
+section {
+    line-height: 1.6;
+    text-align: justify;
+}
+
+footer {
+    background-color: rgb(48, 86, 127);
+    color: #000000;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+button {
+    font-size: 20px;
+    background-color: #007acc;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    transition: background-color 0.3s ease;
+}
+
+
+
+ .hover-section:hover .hover-content {
+     opacity: 1;
+ }
+ footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 10%;
+}
+
+
+.header {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    height: 50px;
+    
+}
+
+footer{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/2/21/Marseille_panorama_villenord_2009_byHugs.jpg);
+    background-size: cover;
+    height: 20vh;
+}
+
+.menu-btn {
+    cursor: pointer;
+    display: flex;
+    margin-right: auto;
+    flex-direction: column;
+    padding-left: 20px;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 4px 0;
+}
+
+.sidebar {
+    height: 100%;
+    width: 0;
+    background-color: aqua;
+    overflow-x: hidden;
+    position: absolute;
+    top: 70px;
+    left: 0;
+    transition: width 0.5s ease;
+    z-index: 1;
+}
+
+.sidebar.open {
+    width: 7vw;
+    height: 85vh;
+    z-index: 1;
+}
+
+.show{
+    height: 600px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.sidebar ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.sidebar li {
+    padding: 8px;
+}
+
+
+.logo {
+    display: flex;
+    height: 7vh;
+}
+
+h1{
+    display: block;
+    font-family: 'Asap';
+    color: rgb(0, 0, 0);
+    background-color:rgb(255, 255, 255);
+    height: 35px;
+    opacity: 0.8;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+h2 {
+    font-family: 'Rubik', sans-serif;
+    color: #ffffff;
+    background-color: rgb(2, 31, 59);
+    opacity: 0.7;
+    
+}
+
+h3{
+    font-family: 'Asap', sans-serif;
+}
+
+p, .lien {
+    font-family: 'Asap', sans-serif;
+}
+
+.lien {
+    font-weight: bold;
+    color: rgb(4, 88, 88);
+    display: flex;
+    justify-content: center;
+}
+
+.ul {
+    color: black;
+    padding-bottom: 10px;
+}
+
+.container {
+    height: 85vh;
+    width: 85vw;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;    
+    background-size: cover;
+    background-image: url('https://www.marseilletourisme.fr/media/filer_public_thumbnails/filer_public/2019/03/04/visiter-le-parc-borely-a-marseille.jpg__2000x1333_q85_crop_subsampling-2.jpg');
+}
+
+img{
+    height: 70vh;
+}
+
+.maps {
+    width: 100%;
+}
+
+.text-section {
+    padding: 20px;
+    background-color: #f0f0f0;
+}
+
+@media only screen and (max-width: 768px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        height: auto;
+    }
+
+    .menu-btn {
+        cursor: pointer;
+        display: flex;
+        margin-left: auto;
+    }
+
+    .sidebar {
+        height: 100%;
+        width: 0;
+        background-color: aqua;
+        overflow-x: hidden;
+        position: absolute;
+        top: 60px;
+        left: 0;
+        transition: width 0.5s ease;
+    }
+
+    .sidebar.open {
+        width: 150px;
+        z-index: 1;
+    }
+}
